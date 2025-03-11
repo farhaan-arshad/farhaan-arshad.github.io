@@ -1,22 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Social Links</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/kMVq3z9W4cxIv5N8aVXOPhBtHZLQXBnvF1RGFSKf6j5lcZ0zHKXJpZGPwjFJbxuFDdF6+jFUFzT9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="container">
-    <h1>Farhaan Arshad </h1>
-    <p>Welcome to my personal website! Connect with me on:</p>
-    <div class="social-links">
-      <a href="https://linkedin.com/in/farhaanarshad" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="https://github.com/farhaan-arshad" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-      <a href="https://twitter.com/farhaan_arshad" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
-      <a href="mailto:farhaanarshad15@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
-    </div>
-  </div>
+<body class="bg-black text-gray-200">
+    <header class="bg-gray-900 text-white p-4 text-center text-xl font-bold shadow-md">
+        My Portfolio
+    </header>
+    
+    <section class="container mx-auto mt-8 p-6 text-center">
+        <h1 class="text-4xl font-bold text-gray-100">Hello, I'm Farhaan Arshad</h1>
+        <p class="text-lg text-gray-400 mt-3">A 2nd-year AIML engineering student at PES University.  
+            Passionate about coding, AI, and building innovative tech solutions.</p>
+    </section>
+    
+    <section class="container mx-auto mt-8 p-6">
+        <h2 class="text-2xl font-bold text-gray-100">Skills</h2>
+        <ul class="list-disc list-inside mt-3 text-gray-400">
+            <li>Python</li>
+            <li>Machine Learning</li>
+            <li>Web Development (HTML, CSS, JavaScript)</li>
+            <li>Data Structures & Algorithms</li>
+        </ul>
+    </section>
+    
+    <section class="container mx-auto mt-8 p-6">
+        <h2 class="text-2xl font-bold text-gray-100">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
+            <div class="bg-gray-800 p-5 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-200">Bobby AI Chatbot</h3>
+                <p class="text-gray-400">A chatbot that integrates weather and news APIs.</p>
+            </div>
+            <div class="bg-gray-800 p-5 rounded-lg shadow-lg">
+                <h3 class="text-xl font-bold text-gray-200">Hand Gesture Recognition</h3>
+                <p class="text-gray-400">A project using webcam to recognize hand gestures.</p>
+            </div>
+        </div>
+        <div class="text-center mt-5">
+            <a href="https://github.com/farhaan-arshad" class="text-blue-500 hover:underline text-lg" target="_blank">View All Projects on GitHub</a>
+        </div>
+    </section>
+    
+    <section class="container mx-auto mt-8 p-6 text-center">
+        <h2 class="text-2xl font-bold text-gray-100">Connect with Me</h2>
+        <div class="flex justify-center space-x-6 mt-5">
+            <a href="https://linkedin.com/in/farhaanarshad" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" class="w-10 h-10" style="filter: invert(1);" alt="LinkedIn">
+            </a>
+            <a href="https://twitter.com/farhaan_arshad" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/twitter.svg" class="w-10 h-10" style="filter: invert(1);" alt="Twitter">
+            </a>
+            <a href="https://github.com/farhaan-arshad" target="_blank">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" class="w-10 h-10" style="filter: invert(1);" alt="GitHub">
+            </a>
+            <a href="mailto:farhaanarshad15@gmail.com">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/gmail.svg" class="w-10 h-10" style="filter: invert(1);" alt="Email">
+            </a>
+        </div>
+    </section>
+    
+    <footer class="bg-gray-900 text-white text-center p-4 mt-8 shadow-lg">
+        &copy; 2025 Farhaan Arshad - Portfolio
+    </footer>
 </body>
 </html>
